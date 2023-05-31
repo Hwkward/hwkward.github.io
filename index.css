@@ -3,7 +3,8 @@ body {
     grid-template-columns: 50% 50%;
     font-family: cursive
     font-size: 20px;
-    color:darkblue
+    
+    
 }
 
 #ingredients ul {
