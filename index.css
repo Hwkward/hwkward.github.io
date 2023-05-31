@@ -1,9 +1,10 @@
 body {
     display: grid;
     grid-template-columns: 50% 50%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive
     font-size: 12px;
     color:darkblue
+
 }
 
 #ingredients ul {
