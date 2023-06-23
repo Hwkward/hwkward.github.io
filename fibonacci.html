@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<script>
+    function fibonacci(terms) {
+        let last = 0;
+        let current = 1;
+
+        for (let i = terms; i != 0; i--) {
+
+            let result = last + current;
+            last = current;
+            current = result;
+            console.log(i + ': ' + result);
+        }
+    }
+
+    function fizzBuzz(n) {
+        for (let i = 1; i != n; i++) {
+            let message = i;
+
+            if (!(i % 3)) {
+                message = 'fizz'
+            }
+            if (!(i % 5)) {
+                message = 'bang'
+
+            }
+            console.log(message);
+        }
+
+
+    }
+
+</script>
